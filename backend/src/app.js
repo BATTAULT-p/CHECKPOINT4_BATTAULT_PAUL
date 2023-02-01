@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const cors = require("cors");
 const router = require("./router");
+const errorMiddleware = require("./middlewares/errorMiddleware");
 
 const app = express();
 
@@ -24,6 +25,9 @@ app.use(express.static(path.join(__dirname, "..", "..", "frontend", "dist")));
 
 // API routes
 app.use("/api", router);
+
+// Error handling
+app.use(errorMiddleware);
 
 // Redirect all requests to the REACT app
 const reactIndexFile = path.join(
