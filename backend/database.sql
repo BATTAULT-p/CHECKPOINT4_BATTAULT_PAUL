@@ -104,7 +104,8 @@ INSERT INTO admin (firstname, lastname, photo, photoName, email, password, role_
     ('Paul', 'BATTAULT', 'http://localhost:5002/uploads/photos/paulb.png', 'paulb.png', 'paulbattault@gmail.com', '$argon2id$v=19$m=65536,t=3,p=4$wLubu1w/HZ/IoOXLX/Dg+Q$Y6u3DEhcUo/Scr/b33V/5lgqc4VpeYbTr9rXx22EAGM', 2);
 
 INSERT INTO user (firstname, lastname, photo, photoName, email, password, role_id) VALUES 
-    ('David', 'FAURE', 'https://ca.slack-edge.com/T6SG2QGG2-U03TJJC82KH-2029c529ac23-512', 'T6SG2QGG2-U03TJJC82KH-2029c529ac23-512', 'davidfaure@gmail.com', '$argon2id$v=19$m=65536,t=3,p=4$wLubu1w/HZ/IoOXLX/Dg+Q$Y6u3DEhcUo/Scr/b33V/5lgqc4VpeYbTr9rXx22EAGM', 1);
+    ('David', 'FAURE', 'https://ca.slack-edge.com/T6SG2QGG2-U03TJJC82KH-2029c529ac23-512', 'faure.jpg', 'davidfaure@gmail.com', '$argon2id$v=19$m=65536,t=3,p=4$wLubu1w/HZ/IoOXLX/Dg+Q$Y6u3DEhcUo/Scr/b33V/5lgqc4VpeYbTr9rXx22EAGM', 1),
+    ('Maxime', 'DUPIN', 'https://ca.slack-edge.com/T6SG2QGG2-U041SBCGE14-2df0deaf4b0c-512', 'dupin.jpg', 'maximedupin@gmail.com', '$argon2id$v=19$m=65536,t=3,p=4$wLubu1w/HZ/IoOXLX/Dg+Q$Y6u3DEhcUo/Scr/b33V/5lgqc4VpeYbTr9rXx22EAGM', 1);
 
 INSERT INTO firm (name, description) VALUES 
     ('Sony', 'Sony Corporation est une entreprise japonaise de l’industrie électronique, de l’électronique grand public et des jeux vidéo. Elle est l’un des principaux fabricants de consoles de jeux vidéo, de téléviseurs, de lecteurs Blu-ray, de smartphones, de caméscopes, de caméras numériques, de lecteurs MP3, de baladeurs, de lecteurs de disques optiques, de lecteurs de disques Blu-ray, de lecteurs de disques DVD, de lecteurs de disques CD, de lecteurs de disques miniDisc, de lecteurs de disques magnétiques, de lecteurs de disques Super Audio CD, de lecteurs de disques vidéo'),
