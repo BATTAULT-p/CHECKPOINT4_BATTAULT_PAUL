@@ -1,0 +1,70 @@
+.login-global {
+  margin-top: 20vh;
+}
+.login-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7vh;
+}
+.login-title {
+  font-size: 2.8vw;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-label {
+  display: block;
+  font-size: 0.9vw;
+  letter-spacing: 0.1vw;
+  width: 30vw;
+  font-weight: bold;
+}
+.login-input {
+  appearance: none;
+  border-radius: 0.35rem;
+  border: none;
+  width: 100%;
+  margin-top: 0.7vh;
+  margin-bottom: 1.5vh;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  padding-left: 0.8rem;
+  background-color: #ffffffd4;
+  opacity: 0.8;
+  color: black;
+  font-family: "latoregular";
+  line-height: 1.25;
+}
+.login-button {
+  background-color: var(--violet);
+  color: white;
+  font-family: "latoregular";
+  font-size: 1.2vw;
+  width: 103%;
+  margin-top: 2vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-weight: bold;
+  border-radius: 0.35rem;
+  border: none;
+}
+.loginButton:hover {
+  opacity: 0.7;
+}
+.wrong-password-login {
+  font-family: "latoregular";
+  color: red;
+  font-size: 1.1vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+.small_link {
+  margin-top: 2vh;
+}
+.loginNoAccountTextLink a {
+  font-family: "latoregular";
+  font-weight: bold;
+}
