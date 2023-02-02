@@ -1,0 +1,71 @@
+.homePageAdmin {
+  margin-top: 25vh;
+}
+.homePage-title-admin {
+  font-size: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7vh;
+}
+.homePage-title-admin h1 {
+  font-family: "latoregular";
+}
+.home-content-admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-consoles-admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  height: auto;
+  margin-bottom: 10vh;
+  border: solid 5px var(--bleu);
+  border-radius: 5vw;
+  box-shadow: 0 0 2vw var(--bleu);
+}
+.action-consoles {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 15vh;
+}
+.action-consoles h3 {
+  font-family: "latoregular";
+  font-size: 2vh;
+}
+.button-Admin {
+  font-family: "latoregular";
+  font-size: 1.7vh;
+  width: 12vw;
+  height: 5vh;
+  background: none;
+  border: solid 2px var(--bleu);
+  border-radius: 2vw;
+}
+.button-Admin-delete {
+  font-family: "latoregular";
+  font-size: 1.7vh;
+  width: 12vw;
+  height: 5vh;
+  background: none;
+  border: solid 2px red;
+  border-radius: 2vw;
+}
+.console-inline {
+  display: flex;
+  align-items: center;
+  border: solid 2px var(--bleu);
+  border-radius: 1vw;
+  margin-bottom: 2vh;
+}
+.console-element {
+  font-family: "latoregular";
+  margin: 2vh 2vw;
+  width: 10vw;
+}

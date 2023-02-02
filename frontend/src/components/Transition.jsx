@@ -4,7 +4,7 @@ import Home from "../pages/Home";
 import SignIn from "../pages/SignIn";
 import Login from "../pages/Login";
 import BoardAdmin from "../pages/BoardAdmin";
-import GameDetails from "../pages/GameDetails";
+import LoginAdmin from "../pages/LoginAdmin";
 import Error from "../pages/Error";
 
 function Transition() {
@@ -13,8 +13,8 @@ function Transition() {
       <Route path="/" element={<Home />} />
       <Route path="/signIN" element={<SignIn />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/loginAdmin" element={<LoginAdmin />} />
       <Route path="/boardAdmin" element={<BoardAdmin />} />
-      <Route path="/gameDetails/:id" element={<GameDetails />} />
       <Route path="*" element={<Error />} />
     </Routes>
   );

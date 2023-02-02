@@ -1,6 +1,67 @@
 .homePage {
-  margin-top: 35vh;
+  margin-top: 25vh;
 }
-.p {
-  width: 20vw;
+.homePage-title {
+  font-size: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7vh;
+}
+.homePage-title h1 {
+  font-family: "latoregular";
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-consoles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  height: 53vh;
+  margin-bottom: 10vh;
+  border: solid 5px var(--bleu);
+  border-radius: 5vw;
+  box-shadow: 0 0 2vw var(--bleu);
+}
+.home-consoles h2 {
+  font-family: "latoregular";
+  font-size: 3vh;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+.home-bloc-consoles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.home-games {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  height: fit-content;
+  margin-bottom: 5vh;
+  border: solid 5px var(--bleu);
+  border-radius: 5vw;
+  box-shadow: 0 0 2vw var(--bleu);
+}
+.home-bloc-games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  height: 100%;
+}
+
+.home-games h2 {
+  font-family: "latoregular";
+  font-size: 3vh;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
 }

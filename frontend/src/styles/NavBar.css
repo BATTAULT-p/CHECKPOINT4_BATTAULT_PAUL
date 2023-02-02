@@ -60,3 +60,13 @@
   color: var(--violet);
   transform: scale(1.1);
 }
+.logout {
+  color: white;
+  width: 2.5vw;
+  align-self: center;
+  margin: 0 1.2vw;
+}
+.logout:hover {
+  color: var(--violet);
+  transform: scale(1.1);
+}
