@@ -1,5 +1,25 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  font-family: "lato", "Raleway", sans-serif;
+  color: var(--bleu);
+}
+:root {
+  --violet: #d117d2;
+  --bleu: #22fafb;
+}
+@font-face {
+  font-family: lato;
+  src: url(./assets/fonts/Lato-Thin.ttf);
+}
+@font-face {
+  font-family: latoRegular;
+  src: url(./assets/fonts/Lato-Regular.ttf);
 }
 
+body {
+  background-image: url("./assets/img/fond-game.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}

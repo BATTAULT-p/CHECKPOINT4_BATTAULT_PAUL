@@ -1,0 +1,82 @@
+.signIn-global {
+  margin-top: 20vh;
+}
+.signin-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7vh;
+}
+
+.signin-title {
+  font-size: 2.8vw;
+}
+
+.signIn-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signIn-label {
+  display: block;
+  font-size: 0.9vw;
+  letter-spacing: 0.1vw;
+  width: 30vw;
+  font-weight: bold;
+}
+
+.signIn-input {
+  appearance: none;
+  border-radius: 0.35rem;
+  border: none;
+  width: 100%;
+  margin-top: 0.7vh;
+  margin-bottom: 1.5vh;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  padding-left: 0.8rem;
+  background-color: #ffffffd4;
+  opacity: 0.8;
+  color: black;
+  font-family: "latoregular";
+  line-height: 1.25;
+}
+
+.signinButton {
+  background-color: var(--violet);
+  color: white;
+  font-family: "latoregular";
+  font-size: 1.2vw;
+  width: 103%;
+  margin-top: 2vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-weight: bold;
+  border-radius: 0.35rem;
+  border: none;
+}
+
+.signinButton:hover {
+  opacity: 0.7;
+}
+
+.signinNoAccountText {
+  color: var(--violet);
+  font-weight: bold;
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+}
+
+.signinNoAccountTextLink a {
+  font-family: "latoregular";
+  font-weight: bold;
+}
+
+.wrong-password {
+  font-family: "latoregular";
+  color: red;
+  font-size: 1.1vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
