@@ -1,0 +1,39 @@
+.console-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  height: 40vh;
+  border: solid 5px var(--violet);
+  border-radius: 2vw;
+  box-shadow: 0 0 2vw var(--violet);
+  overflow: hidden;
+}
+.conteneur-photo {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+.photo-card {
+  height: 100%;
+  overflow: hidden;
+}
+.conteneur-texte {
+  height: 30%;
+  font-size: 2vh;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.card-price {
+  font-family: "latoregular";
+  font-size: 2.5vh;
+}
+.conteneur-texte h3 {
+  font-family: "latoregular";
+  letter-spacing: 0.1rem;
+  margin-top: 2vh;
+  font-size: 2.5vh;
+}

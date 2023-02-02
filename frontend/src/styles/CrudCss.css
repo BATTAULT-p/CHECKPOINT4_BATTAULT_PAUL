@@ -1,0 +1,80 @@
+.create-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-label {
+  display: block;
+  font-size: 0.9vw;
+  letter-spacing: 0.1vw;
+  width: 30vw;
+  font-weight: bold;
+}
+
+.create-input {
+  appearance: none;
+  border-radius: 0.35rem;
+  border: none;
+  width: 100%;
+  margin-top: 0.7vh;
+  margin-bottom: 1.5vh;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  padding-left: 0.8rem;
+  background-color: #ffffffd4;
+  opacity: 0.8;
+  color: black;
+  font-family: "latoregular";
+  line-height: 1.25;
+}
+
+.create-button {
+  background-color: var(--violet);
+  color: white;
+  font-family: "latoregular";
+  font-size: 1.2vw;
+  width: 103%;
+  margin-top: 2vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-weight: bold;
+  border-radius: 0.35rem;
+  border: none;
+  margin-bottom: 5vh;
+}
+
+.loginButton:hover {
+  opacity: 0.7;
+}
+
+.wrong-password-login {
+  font-family: "latoregular";
+  color: red;
+  font-size: 1.1vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+.small_link {
+  margin-top: 2vh;
+}
+
+.loginNoAccountTextLink a {
+  font-family: "latoregular";
+  font-weight: bold;
+}
+.delete-text {
+  font-family: "latoregular";
+  font-size: 1vw;
+  color: var(--bleu);
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.delete-message {
+  font-family: "latoregular";
+  font-size: 1vw;
+  color: red;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
