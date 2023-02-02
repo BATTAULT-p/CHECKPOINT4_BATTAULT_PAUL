@@ -48,7 +48,6 @@ function BoardAdmin() {
       <div className="home-content-admin">
         <div className="home-consoles-admin">
           <div className="action-consoles">
-            <h3>Console sélectionné : {selectedConsole.title}</h3>
             <button
               type="button"
               className="button-Admin"
@@ -70,10 +69,17 @@ function BoardAdmin() {
             >
               Supprimer la console selectionnée
             </button>
-            <button type="button" className="button-Admin" onClick={refresh}>
+            <button
+              type="button"
+              className="button-Admin-refresh"
+              onClick={refresh}
+            >
               Rafraichir
             </button>
           </div>
+          <h3 className="selected-console">
+            Console sélectionnée : {selectedConsole.title}
+          </h3>
           <div>
             {() => {
               if (fonction === "creer") {
@@ -97,7 +103,11 @@ function BoardAdmin() {
           <div className="admin-consoles">
             {consoles.map((console) => (
               <div
-                className="console-inline"
+                className={
+                  console.id === selectedConsole.id
+                    ? "console-inline-selected"
+                    : "console-inline"
+                }
                 onClick={() => setSelectedConsole(console)}
                 onKeyDown=""
                 role="presentation"

@@ -9,7 +9,8 @@
   margin-bottom: 7vh;
 }
 .homePage-title-admin h1 {
-  font-family: "latoregular";
+  color: white;
+  font-size: 2.8vw;
 }
 .home-content-admin {
   display: flex;
@@ -23,9 +24,6 @@
   width: 80vw;
   height: auto;
   margin-bottom: 10vh;
-  border: solid 5px var(--bleu);
-  border-radius: 5vw;
-  box-shadow: 0 0 2vw var(--bleu);
 }
 .action-consoles {
   display: flex;
@@ -35,26 +33,39 @@
   width: 100%;
   height: 15vh;
 }
-.action-consoles h3 {
+.selected-console {
   font-family: "latoregular";
-  font-size: 2vh;
+  font-size: 3vh;
+  margin-bottom: 5vh;
 }
 .button-Admin {
+  color: white;
   font-family: "latoregular";
   font-size: 1.7vh;
-  width: 12vw;
-  height: 5vh;
+  width: 15vw;
+  height: 7vh;
   background: none;
-  border: solid 2px var(--bleu);
+  border: solid 2px white;
   border-radius: 2vw;
 }
 .button-Admin-delete {
+  color: red;
   font-family: "latoregular";
   font-size: 1.7vh;
-  width: 12vw;
-  height: 5vh;
+  width: 15vw;
+  height: 7vh;
   background: none;
   border: solid 2px red;
+  border-radius: 2vw;
+}
+.button-Admin-refresh {
+  color: #88ff9b;
+  font-family: "latoregular";
+  font-size: 1.7vh;
+  width: 15vw;
+  height: 7vh;
+  background: none;
+  border: solid 2px #88ff9b;
   border-radius: 2vw;
 }
 .console-inline {
@@ -64,8 +75,18 @@
   border-radius: 1vw;
   margin-bottom: 2vh;
 }
+.console-inline p {
+  color: white;
+}
+.console-inline-selected {
+  display: flex;
+  align-items: center;
+  border: solid 2px var(--violet);
+  border-radius: 1vw;
+  margin-bottom: 2vh;
+}
 .console-element {
   font-family: "latoregular";
   margin: 2vh 2vw;
-  width: 10vw;
+  width: 12vw;
 }

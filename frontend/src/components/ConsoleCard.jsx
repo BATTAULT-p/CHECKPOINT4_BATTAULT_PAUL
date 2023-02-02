@@ -12,7 +12,7 @@ function ConsoleCard({ console }) {
         <h3>{console.title}</h3>
         <p>il en reste {console.quantity}</p>
         <p>
-          <span className="card-price">{console.price} euros</span> la journée
+          <span className="card-price">{console.price} euros</span> / la journée
         </p>
       </div>
     </div>

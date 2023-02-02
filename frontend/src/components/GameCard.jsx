@@ -12,7 +12,8 @@ function GameCard({ game }) {
         <h3>{game.title}</h3>
         <p>il en reste {game.quantity}</p>
         <p>
-          <span className="game-card-price">{game.price} euros</span> la journée
+          <span className="game-card-price">{game.price} Euros</span> / la
+          journée
         </p>
       </div>
     </div>
