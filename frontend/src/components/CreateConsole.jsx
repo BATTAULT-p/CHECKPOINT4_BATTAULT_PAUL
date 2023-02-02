@@ -108,7 +108,7 @@ function CreateConsole() {
             onChange={handleChange}
           />
         </div>
-        <p className="wrong-password-login">{message}</p>
+        <p className="validCss">{message}</p>
         <input className="create-button" type="submit" value="Créer" />
       </form>
     </div>

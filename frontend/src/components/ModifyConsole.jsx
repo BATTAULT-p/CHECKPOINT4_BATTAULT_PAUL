@@ -4,7 +4,7 @@ import axios from "axios";
 import "../styles/CrudCss.css";
 
 function ModifyConsole({ selectedConsole }) {
-  const [error, setError] = useState("");
+  const [message, setMessage] = useState("");
   const [consoleForm, setConsoleForm] = useState({});
 
   const handleChange = (event) => {
@@ -21,10 +21,10 @@ function ModifyConsole({ selectedConsole }) {
       .then((res) => {
         if (res.status === 200) {
           // eslint-disable-next-line no-undef
-          setError("console modifiée");
+          setMessage("console modifiée");
         }
       })
-      .catch((err) => setError(err.response.data.message));
+      .catch((err) => setMessage(err.response.data.message));
     event.preventDefault();
   };
 
@@ -113,7 +113,7 @@ function ModifyConsole({ selectedConsole }) {
             onChange={handleChange}
           />
         </div>
-        <p className="wrong-password-login">{error}</p>
+        <p className="validCss">{message}</p>
         <input className="create-button" type="submit" value="Modifier" />
       </form>
     </div>

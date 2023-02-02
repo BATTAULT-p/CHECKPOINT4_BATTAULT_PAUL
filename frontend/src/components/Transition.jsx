@@ -5,6 +5,7 @@ import SignIn from "../pages/SignIn";
 import Login from "../pages/Login";
 import BoardAdmin from "../pages/BoardAdmin";
 import LoginAdmin from "../pages/LoginAdmin";
+import ProtectedRouteAdmin from "../context/ProtectedRouteAdmin";
 import Error from "../pages/Error";
 
 function Transition() {
@@ -14,7 +15,14 @@ function Transition() {
       <Route path="/signIN" element={<SignIn />} />
       <Route path="/login" element={<Login />} />
       <Route path="/loginAdmin" element={<LoginAdmin />} />
-      <Route path="/boardAdmin" element={<BoardAdmin />} />
+      <Route
+        path="/boardAdmin"
+        element={
+          <ProtectedRouteAdmin>
+            <BoardAdmin />
+          </ProtectedRouteAdmin>
+        }
+      />
       <Route path="*" element={<Error />} />
     </Routes>
   );

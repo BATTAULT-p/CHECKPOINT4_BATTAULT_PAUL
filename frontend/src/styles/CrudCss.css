@@ -78,3 +78,10 @@
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
+.validCss {
+  font-family: "latoregular";
+  font-size: 1vw;
+  color: green;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}

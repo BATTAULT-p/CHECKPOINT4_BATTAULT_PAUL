@@ -24,7 +24,7 @@ function DeleteConsole({ selectedConsole, setSelectedConsole }) {
   return (
     <div className="create-form">
       <form name="create" method="post" onSubmit={handleDeleteSubmit}>
-        <p className="delete-text">
+        <p className="validCss">
           Êtes-vous sur de vouloir supprimer cette console ?
         </p>
         <p className="delete-message">{message}</p>

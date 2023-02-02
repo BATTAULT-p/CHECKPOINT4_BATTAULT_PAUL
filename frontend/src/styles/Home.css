@@ -8,8 +8,14 @@
   align-items: center;
   margin-bottom: 7vh;
 }
-.homePage-title h1 {
+.homePage-title h2 {
   font-family: "latoregular";
+  letter-spacing: 0.2rem;
+  font-size: 10vh;
+}
+.homePage-title h3 {
+  letter-spacing: 0.2rem;
+  font-size: 3vh;
 }
 .home-content {
   display: flex;
@@ -21,23 +27,25 @@
   flex-direction: column;
   align-items: center;
   width: 80vw;
-  height: 53vh;
+  height: fit-content;
   margin-bottom: 10vh;
-  border: solid 5px var(--bleu);
+  /* border: solid 5px var(--violet);
   border-radius: 5vw;
-  box-shadow: 0 0 2vw var(--bleu);
+  box-shadow: 0 0 2vw var(--violet); */
 }
 .home-consoles h2 {
+  color: var(--violet);
   font-family: "latoregular";
+  letter-spacing: 0.2rem;
   font-size: 3vh;
   margin-top: 1vh;
   margin-bottom: 3vh;
 }
 .home-bloc-consoles {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 .home-games {
@@ -47,9 +55,9 @@
   width: 80vw;
   height: fit-content;
   margin-bottom: 5vh;
-  border: solid 5px var(--bleu);
+  /* border: solid 5px var(--bleu);
   border-radius: 5vw;
-  box-shadow: 0 0 2vw var(--bleu);
+  box-shadow: 0 0 2vw var(--bleu); */
 }
 .home-bloc-games {
   display: flex;
@@ -60,8 +68,34 @@
 }
 
 .home-games h2 {
+  color: #88ff9b;
   font-family: "latoregular";
+  letter-spacing: 0.2rem;
   font-size: 3vh;
   margin-top: 1vh;
   margin-bottom: 3vh;
+}
+.titleBloc {
+  display: flex;
+  justify-content: space-between;
+  width: 66vw;
+  height: 2vh;
+  margin-bottom: 7vh;
+}
+.titleBloc-game {
+  display: flex;
+  justify-content: space-between;
+  width: 68vw;
+  height: 2vh;
+  margin-bottom: 7vh;
+}
+.tiret {
+  width: 25vw;
+  border-top: solid 1px var(--violet);
+  margin-top: 3vh;
+}
+.tiret-game {
+  width: 25vw;
+  border-top: solid 1px #88ff9b;
+  margin-top: 3vh;
 }

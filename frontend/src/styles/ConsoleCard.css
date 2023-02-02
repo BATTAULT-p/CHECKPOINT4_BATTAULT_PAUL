@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 25%;
+  width: 18vw;
   height: 40vh;
   border: solid 5px var(--violet);
   border-radius: 2vw;
   box-shadow: 0 0 2vw var(--violet);
   overflow: hidden;
+  margin: 2%;
 }
 .conteneur-photo {
   width: 100%;
@@ -27,11 +28,15 @@
   flex-direction: column;
   align-items: center;
 }
+.conteneur-texte p {
+  color: white;
+}
 .card-price {
   font-family: "latoregular";
   font-size: 2.5vh;
 }
 .conteneur-texte h3 {
+  color: white;
   font-family: "latoregular";
   letter-spacing: 0.1rem;
   margin-top: 2vh;
